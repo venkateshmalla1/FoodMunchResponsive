@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Munch</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#sectionHome">
+        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-munch-logo-img.png" class="logo-image" alt="website logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link text-white active" href="#sectionHome">Home</a>
+          <a class="nav-link text-white" href="#sectionWhyChooseUs">Why choose Us</a>
+          <a class="nav-link text-white" href="#sectionMenu">Explore our Menu</a>
+          <a class="nav-link text-white" href="#sectionDelivery">Delivery & Payment</a>
+          <a class="nav-link text-white" href="#sectionFollowUs">Follow Us</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="bg-home" id="sectionHome">
+    <div class="welcome-container text-center">
+      <h1 class="Wel-note">Welcome to Food Munch Official Website</h1>
+      <h2 class="wel-para">Experience our delicious food today</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-center mt-3">
+        <button class="btn btn-danger btn-lg p-2 m-2" onclick="display('sectionMenu')">View Menu</button>
+        <button class="btn btn-light btn-lg p-2 m-2" onclick="display('sectionDelivery')">Check Delivery</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="py-5 bg-light" id="sectionWhyChooseUs">
+    <div class="container">
+      <h2 class="section-heading text-center">Why Choose Us?</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-utensils why-card-icon"></i>
+          <h5 class="font-weight-bold">Quality Food</h5>
+          <p class="text-muted">We serve the freshest, highest-quality ingredients to give you the best taste.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-rocket why-card-icon"></i>
+          <h5 class="font-weight-bold">Fast Delivery</h5>
+          <p class="text-muted">Get your favorite food delivered to your door in record time.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-hand-holding-usd why-card-icon"></i>
+          <h5 class="font-weight-bold">Great Value</h5>
+          <p class="text-muted">Enjoy amazing meals without breaking the bank. Great food, great price.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" id="sectionMenu">
+    <div class="container">
+      <h2 class="section-heading text-center">Explore Our Menu</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" class="card-img-top menu-card-img" alt="Gourmet Burger">
+            <div class="card-body text-center">
+              <h5 class="font-weight-bold">Gourmet Burger</h5>
+              <p class="small text-muted">Premium beef patty with aged cheddar and caramelized onions.</p>
+              <a href="#" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" class="card-img-top menu-card-img" alt="Healthy Bowl">
+            <div class="card-body text-center">
+              <h5 class="font-weight-bold">Buddha Bowl</h5>
+              <p class="small text-muted">Organic greens, quinoa, roasted nuts, and zesty lemon dressing.</p>
+              <a href="#" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" class="card-img-top menu-card-img" alt="Artisan Pizza">
+            <div class="card-body text-center">
+              <h5 class="font-weight-bold">Artisan Pizza</h5>
+              <p class="small text-muted">Hand-stretched dough with spicy pepperoni and fresh basil.</p>
+              <a href="#" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80" class="card-img-top menu-card-img" alt="Garlic Shrimp">
+            <div class="card-body text-center">
+              <h5 class="font-weight-bold">Garlic Shrimp</h5>
+              <p class="small text-muted">Ocean-fresh shrimp sautéed in savory garlic herb butter.</p>
+              <a href="#" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-dark" id="sectionDelivery">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+          <h2 class="text-white font-weight-bold">Delivery & Payment</h2>
+          <h4 class="text-danger">Speedy Delivery. Easy Payment.</h4>
+          <p class="text-light opacity-75">Enjoy the convenience of quick, reliable delivery right to your location. We accept all major payment methods.</p>
+          <button class="btn btn-danger btn-lg mt-3">Order Now</button>
+        </div>
+        <div class="col-md-6 text-center d-none d-md-block">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="Delivery" class="payment-image">        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-center py-5" id="sectionFollowUs">
+    <div class="container">
+      <h5 class="text-white mb-4">Follow Us</h5>
+      <div class="d-flex justify-content-center">
+        <a href="#" class="icon-container"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon-container"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icon-container"><i class="fab fa-facebook"></i></a>
+      </div>
+      <p class="text-muted mt-4">&copy; 2026 Food Munch. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    function display(sectionId) {
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
