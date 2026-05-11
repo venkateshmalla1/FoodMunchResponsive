@@ -1,86 +1,44 @@
-# 🍔 Food Munch Website
+# Food Munch Website
 
-A responsive restaurant website built with **HTML**, **CSS**, and **Bootstrap**.  
-It showcases the restaurant’s menu, delivery options, and social media links with a modern design.
+## Overview
+Food Munch is a responsive restaurant landing page built with HTML, CSS, and Bootstrap. The site highlights menu items, delivery options, features, and contact details with a polished, modern presentation.
 
----
+## Features
+- Fixed navigation bar with smooth scrolling to page sections
+- Full-width hero section with dark overlay and headline copy
+- Responsive feature cards for restaurant benefits
+- Menu item cards with hover interactions
+- Delivery and payment section with call-to-action button
+- Footer with social links and brand information
 
-## 🚀 Features
-- Fixed **navbar** with smooth scrolling to sections
-- Hero section with **black overlay** for welcome text
-- Responsive **Why Choose Us** cards
-- Interactive **Menu section** with hover effects
-- Delivery & Payment section with image and CTA
-- Footer with **social media icons** styled as circular badges
+## Project Structure
+```
+FoodMunchResponsive/
+├── index.html
+└── style.css
+```
 
----
+## Technologies
+- HTML5
+- CSS3
+- Bootstrap 4.5
+- Font Awesome icons
+- Unsplash image assets via CDN
 
-## 📂 Project Structure
-# 🍔 Food Munch Website
+## Setup
+1. Clone or download the repository.
+2. Open `index.html` in your web browser.
+3. Ensure internet access for Bootstrap and Font Awesome CDN resources.
 
-A responsive restaurant website built with **HTML**, **CSS**, and **Bootstrap**.  
-It showcases the restaurant’s menu, delivery options, and social media links with a modern design.
-
----
-
-## 🚀 Features
-- Fixed **navbar** with smooth scrolling to sections
-- Hero section with **black overlay** for welcome text
-- Responsive **Why Choose Us** cards
-- Interactive **Menu section** with hover effects
-- Delivery & Payment section with image and CTA
-- Footer with **social media icons** styled as circular badges
-
----
-
-## 📂 Project Structure
-# 🍔 Food Munch Website
-
-A responsive restaurant website built with **HTML**, **CSS**, and **Bootstrap**.  
-It showcases the restaurant’s menu, delivery options, and social media links with a modern design.
-
----
-
-## 🚀 Features
-- Fixed **navbar** with smooth scrolling to sections
-- Hero section with **black overlay** for welcome text
-- Responsive **Why Choose Us** cards
-- Interactive **Menu section** with hover effects
-- Delivery & Payment section with image and CTA
-- Footer with **social media icons** styled as circular badges
-
----
-
-## 📂 Project Structure
-FoodMunch/
-│
-├── index.html     
-├── style.css  
-
-
----
-
-## 🛠️ Technologies Used
-- **HTML5**
-- **CSS3**
-- **Bootstrap 4.5**
-- **Font Awesome** (for icons)
-- **Unsplash CDN images** (for reliable food images)
-
----
-
-## ⚙️ Setup Instructions
-1. Clone or download this repository.
-2. Open `index.html` in your browser.
-3. Ensure you have internet access for Bootstrap and Font Awesome CDN links.
-4. Customize `style.css` for theme adjustments.
-
----
-
-## 🎨 Customization
-- Change background images in `style.css` (hero section, menu items).
-- Adjust overlay transparency by editing:
+## Customization
+- Update images and background graphics directly in `style.css`.
+- Adjust hero overlay opacity in the `.welcome-container::before` rule:
   ```css
   .welcome-container::before {
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
   }
+```
+- Modify typography and color variables in `style.css` to match brand identity.
+
+## Notes
+This project is designed as a static demo site and does not include backend functionality.
